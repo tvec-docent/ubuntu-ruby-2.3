@@ -1,4 +1,4 @@
-REPOSITORY = xqops/ubuntu-ruby-2.3
+REPOSITORY = xqdocker/ubuntu-ruby-2.3
 VERSION = `cat VERSION`
 
 image:
@@ -6,7 +6,7 @@ image:
 
 git-release:
 	git fetch --tags
-	git tag -a v${VERSION} -m "Release version ${VERSION}"
+	git tag -a ${VERSION} -m "Release version ${VERSION}"
 	git push --tags
 
 release: image
