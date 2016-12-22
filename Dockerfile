@@ -1,4 +1,4 @@
-FROM xqdocker/ubuntu-for-ruby:1.1.0
+FROM xqdocker/ubuntu-for-ruby:1.1.1
 MAINTAINER Xiaoqi Cao <thomascxq@gmail.com>
 
 #Install Ruby 2.3
